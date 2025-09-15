@@ -1,6 +1,5 @@
-===================================================================
-             MARVELLOUS PACKER AND UNPACKER APPLICATION
-===================================================================
+MARVELLOUS PACKER AND UNPACKER APPLICATION
+------------------------------------------------------------------
 
 Author       : Sakshi Pankaj Borhade  
 Created On   : 21/07/2025  
@@ -8,9 +7,8 @@ Language     : Java
 Input        : Files from a directory (Packer), Packed file (Unpacker)  
 Output       : Single packed file (Packer), Multiple extracted files (Unpacker)  
 
-===================================================================
 DESCRIPTION
-===================================================================
+------------------------------------------------------------------
 
 This Java-based console application is designed to:
 1. **Pack multiple files** from a specified directory into a **single file**
@@ -21,20 +19,18 @@ These tools are helpful for basic file bundling or archiving tasks, such as:
 - Simple backup operations
 - Consolidating files for transfer
 
-===================================================================
 FEATURES
-===================================================================
+------------------------------------------------------------------
 
-✔ Pack multiple files into a single file  
-✔ Extract all files from the packed file  
-✔ Displays logs and statistical reports  
-✔ Handles all file types (text, binary, images, etc.)  
-✔ Easy command-line interface  
-✔ No external dependencies  
+ Pack multiple files into a single file  
+ Extract all files from the packed file  
+ Displays logs and statistical reports  
+ Handles all file types (text, binary, images, etc.)  
+ Easy command-line interface  
+ No external dependencies  
 
-===================================================================
 PACKER DETAILS
-===================================================================
+------------------------------------------------------------------
 
 > **Class Name**: `MarvellousPacker`  
 > **Entry Point**: `Packer.java`
@@ -48,9 +44,8 @@ PACKER DETAILS
 - Writes the header and file data to the packed file
 - Prints progress and a summary report
 
-===================================================================
 UNPACKER DETAILS
-===================================================================
+------------------------------------------------------------------
 
 > **Class Name**: `MarvellousUnpacker`  
 > **Entry Point**: `Unpacker.java`
